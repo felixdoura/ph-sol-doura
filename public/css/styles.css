@@ -6,7 +6,19 @@
     --pale-cerulean: #97c8eb;
 }
 
-.header{
+.header-style{
     height: 40px;
     background-color: var(--richblack-fogra);
+    box-sizing: border-box;
+    padding: 10%;
+}
+
+.main-style{
+    background-color: var(--verdigris);
+    box-sizing: border-box;
+}
+
+.footer-style{
+    height: 30px;
+    background-color: var(--pale-cerulean);
 }
