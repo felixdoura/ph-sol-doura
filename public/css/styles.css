@@ -7,18 +7,43 @@
 }
 
 .header-style{
-    height: 40px;
+    color: beige;
     background-color: var(--richblack-fogra);
     box-sizing: border-box;
-    padding: 10%;
+}
+
+.burger-menu{
+    color: var(--richblack);
+    background-color: beige;
+    margin: none;
+    border: none;
+    font-size: 18px;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 12px;
 }
 
 .main-style{
-    background-color: var(--verdigris);
+    background-color: var(--pale-cerulean);
     box-sizing: border-box;
+
+}
+.contenedor-imagenes{
+    height: 30%;
+    width: 30%;
+    box-sizing: border-box;
+}
+.imagen001{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-left: 20%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+
 }
 
 .footer-style{
-    height: 30px;
-    background-color: var(--pale-cerulean);
+    background-color: var(--verdigris);
+    box-sizing: border-box;
 }
