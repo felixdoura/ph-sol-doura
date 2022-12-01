@@ -1,0 +1,12 @@
+:root{
+    --richblack-fogra: #001011;
+    --richblack: #093a3e;
+    --verdigris: #3AAFB9;
+    --electric-blue: #64e9ee;
+    --pale-cerulean: #97c8eb;
+}
+
+.header{
+    height: 40px;
+    background-color: var(--richblack-fogra);
+}
