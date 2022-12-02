@@ -15,7 +15,7 @@
 .burger-menu{
     color: var(--richblack);
     background-color: beige;
-    margin: none;
+    margin: 5%;
     border: none;
     font-size: 18px;
     padding: 12px;
@@ -33,14 +33,25 @@
     width: 30%;
     box-sizing: border-box;
 }
+.image-style{
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    object-fit: cover;
+}
 .imagen001{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    margin-left: 20%;
-    margin-top: 20%;
-    margin-bottom: 20%;
+    object-position: top left;
+}
 
+.imagen002{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top right;
 }
 
 .footer-style{
