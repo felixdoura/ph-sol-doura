@@ -1,9 +1,20 @@
-const path = require("path");
+let products = [
+
+    {
+        id: 1,
+        descripcion: "imagen001",
+        precio: 1000,
+        descuento: 10,
+
+    }
+]
 
 
 module.exports = {
     index : (req, res) => {
-        res.sendFile(path.join(__dirname, "../views/home.html"))
+       
+        res.render("home");
+
     },
 
 }

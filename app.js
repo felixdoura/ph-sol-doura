@@ -6,6 +6,12 @@ const mainRouter = require ("./routes/mainRouter")
 
 app.use (express.static("public"))
 
+// Configuramos ejs como template engine
+app.set ("view engine", "ejs");
+
+// Configuramos la carpeta de vistas
+app.set ("views", "./views")
+
 app.use ("/", mainRouter);
 
 
