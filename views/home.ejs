@@ -1,27 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<% include("./partials/head") %> 
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Sol Doura</title>
 
-<body class="body-style">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rubik+Distressed&display=swap" rel="stylesheet">
+
+    <!-- Iconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Link de las imagenes -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Link al CSS -->
+    <link href="/css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
     <header class="header-style">
-        <div class="burger-button">
-            <button class="burger-menu"><i class="fa fa-bars"></i></button>
+        <div class="redes">
+        <a href="https://www.instagram.com/soldouravisual/?hl=es" target="_blank" rel="noopener noreferrer">
+            <div class="contact-item">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </a>
+        <a href="https://ar.pinterest.com/soldoura/" target="_blank" rel="noopener noreferrer">
+            <div class="contact-item">
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+        </a>
         </div>
+
+        <nav class="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="#home"><li>Home</li></a>
+                    <a href="#about"><li>Sobre Mi</li></a>
+                    <a href="#colecciones"><li>Colecciones</li></a>
+                    <a href="#contacto"><li>Contacto</li></a>
+                </ul>
+            </div>
+            <ul id="desktop-menu">
+                <a href="#home"><li>Home</li></a>
+                <a href="#about"><li>Sobre Mi</li></a>
+                <a href="#colecciones"><li>Colecciones</li></a>
+                <a href="#contacto"><li>Contacto</li></a>
+            </ul>
+        </nav>
     </header>
 
     <main class="main-style">
-        <div class="contenedor-imagenes">
-            <div class="image-style">
-                <img class="imagen001" src="/images/PortfolioSol-Moda0416.jpg" alt="modelo01">
-            </div>
-            <div class="image-style">
-                <img class="imagen002" src="/images/soldoura_amatista_2021.jpg" alt="paisajes">
-            </div>
-        </div>
+
+        <section class="contenedor-general-imagenes">
+
+            <% productos.forEach(producto => { %>
+                <article class="estilo-imagen">
+                   <a class="link-imagen" href="<%= producto.id %>">
+
+                       <div class="contenedor-imagen">
+                           <img class="imagen" src="<%= producto.imagen %>" alt="foto">
+                       </div>
+
+                    </a>
+                    <div class="descripcion">
+                        <p><%= producto.nombre %> </p>
+                    </div>
+               </article>
+               <% }) %>
+
+        </section>
+
+ 
+
     </main>
 
-    <footer class="footer-style">
+    <footer class="estilo-footer">
         
     </footer>
 
