@@ -2,8 +2,8 @@ let productos = [
 
     {
         id: 1,
-        nombre: "foto01",
-        descripcion: "imagen001",
+        nombre: "Moda",
+        descripcion: "Portfolio Moda",
         precio: 1000,
         descuento: 10,
         imagen: "/images/PortfolioSol-Moda0447.jpg"
@@ -11,7 +11,7 @@ let productos = [
 
     {
         id: 2,
-        nombre: "foto02",
+        nombre: "Amatista",
         descripcion: "imagen002",
         precio: 1500,
         descuento: 10,
@@ -20,7 +20,7 @@ let productos = [
 
     {
         id: 3,
-        nombre: "foto03",
+        nombre: "Estética",
         descripcion: "imagen002",
         precio: 1500,
         descuento: 10,
@@ -29,7 +29,7 @@ let productos = [
 
     {
         id: 4,
-        nombre: "foto04",
+        nombre: "Estética",
         descripcion: "imagen001",
         precio: 1000,
         descuento: 10,
@@ -38,7 +38,7 @@ let productos = [
 
     {
         id: 5,
-        nombre: "foto05",
+        nombre: "Paisajes",
         descripcion: "imagen002",
         precio: 1500,
         descuento: 10,
@@ -47,7 +47,7 @@ let productos = [
 
     {
         id: 6,
-        nombre: "foto06",
+        nombre: "Rock",
         descripcion: "imagen002",
         precio: 1500,
         descuento: 10,

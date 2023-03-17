@@ -47,6 +47,14 @@ body{
     color: var(--pale-cerulean);
 }
 
+.header-style .titulo{
+    display: flex;
+    align-items: center;
+    max-height: 100%;
+    font-size: 22px;
+    color: var(--pale-cerulean);
+}
+
 .redes a:hover
 {
   color: cornflowerblue;
@@ -200,6 +208,7 @@ ul a{
     background-color: var(--pale-cerulean);
     max-width: 100%;
     padding-top: 60px;
+    padding-bottom: 40px;
 }
 
 .contenedor-general-imagenes{
@@ -214,6 +223,12 @@ ul a{
     display: flex;
     flex-direction: column;
     max-width: 100%;
+
+}
+
+.estilo-imagen:hover{
+    transform: scale(1.03);
+    transition: all 0.7s;
 }
 
 .contenedor-imagen{
@@ -227,6 +242,7 @@ ul a{
     max-width: 100%;
     height: 500px;
     object-fit: cover;
+    border: solid 1px var(--richblack)
 }
 
 .descripcion{
@@ -236,8 +252,9 @@ ul a{
 
 .descripcion p{
     font-size: 24px;
-    text-decoration: solid;
+    font-weight: 400;
     margin: 0px;
+    color: var(--richblack);
 }
 
 
