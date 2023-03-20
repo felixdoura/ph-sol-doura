@@ -2,7 +2,7 @@
         {
                 "id": 1,
                 "nombre": "Moda",
-                "descripcion": "Portfolio Moda",
+                "descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit sodales vitae placerat quis justo vulputate aenean, iaculis curabitur facilisi dis augue venenatis tortor feugiat primis phasellus sapien potenti bibendum. Facilisis arcu interdum suscipit mi eleifend quam nullam ridiculus, vitae blandit iaculis tristique praesent condimentum vulputate euismod dis, varius tellus fringilla donec curabitur tincidunt hendrerit. Lacinia morbi molestie ultrices justo cubilia fermentum venenatis, primis bibendum nunc erat taciti eget massa ultricies, dictumst class nec nullam quisque lectus.",
                 "precio": 1000,
                 "descuento": 10,
                 "imagen": "/images/PortfolioSol-Moda0447.jpg"
@@ -10,7 +10,7 @@
         {
                 "id": 2,
                 "nombre": "Amatista",
-                "descripcion": "imagen002",
+                "descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit sodales vitae placerat quis justo vulputate aenean, iaculis curabitur facilisi dis augue venenatis tortor feugiat primis phasellus sapien potenti bibendum. Facilisis arcu interdum suscipit mi eleifend quam nullam ridiculus, vitae blandit iaculis tristique praesent condimentum vulputate euismod dis, varius tellus fringilla donec curabitur tincidunt hendrerit. Lacinia morbi molestie ultrices justo cubilia fermentum venenatis, primis bibendum nunc erat taciti eget massa ultricies, dictumst class nec nullam quisque lectus.",
                 "precio": 1500,
                 "descuento": 10,
                 "imagen": "/images/soldoura_amatista_2021.jpg"
@@ -18,9 +18,33 @@
         {
                 "id": 3,
                 "nombre": "Estética",
-                "descripcion": "imagen002",
+                "descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit sodales vitae placerat quis justo vulputate aenean, iaculis curabitur facilisi dis augue venenatis tortor feugiat primis phasellus sapien potenti bibendum. Facilisis arcu interdum suscipit mi eleifend quam nullam ridiculus, vitae blandit iaculis tristique praesent condimentum vulputate euismod dis, varius tellus fringilla donec curabitur tincidunt hendrerit. Lacinia morbi molestie ultrices justo cubilia fermentum venenatis, primis bibendum nunc erat taciti eget massa ultricies, dictumst class nec nullam quisque lectus.",
                 "precio": 1500,
                 "descuento": 10,
                 "imagen": "/images/SolDoura-Estetica de lo cotidiano.jpg"
+        },
+        {
+                "id": 4,
+                "nombre": "Paisaje",
+                "descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit sodales vitae placerat quis justo vulputate aenean, iaculis curabitur facilisi dis augue venenatis tortor feugiat primis phasellus sapien potenti bibendum. Facilisis arcu interdum suscipit mi eleifend quam nullam ridiculus, vitae blandit iaculis tristique praesent condimentum vulputate euismod dis, varius tellus fringilla donec curabitur tincidunt hendrerit. Lacinia morbi molestie ultrices justo cubilia fermentum venenatis, primis bibendum nunc erat taciti eget massa ultricies, dictumst class nec nullam quisque lectus.",
+                "precio": 1500,
+                "descuento": 10,
+                "imagen": "/images/Tren patagónico 2019 9.jpg"
+        },
+        {
+                "id": 5,
+                "nombre": "Moda",
+                "descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit sodales vitae placerat quis justo vulputate aenean, iaculis curabitur facilisi dis augue venenatis tortor feugiat primis phasellus sapien potenti bibendum. Facilisis arcu interdum suscipit mi eleifend quam nullam ridiculus, vitae blandit iaculis tristique praesent condimentum vulputate euismod dis, varius tellus fringilla donec curabitur tincidunt hendrerit. Lacinia morbi molestie ultrices justo cubilia fermentum venenatis, primis bibendum nunc erat taciti eget massa ultricies, dictumst class nec nullam quisque lectus.",
+                "precio": 1500,
+                "descuento": 10,
+                "imagen": "/images/PortfolioSol-Moda0433.jpg"
+        },
+        {
+                "id": 6,
+                "nombre": "Rockearte",
+                "descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit sodales vitae placerat quis justo vulputate aenean, iaculis curabitur facilisi dis augue venenatis tortor feugiat primis phasellus sapien potenti bibendum. Facilisis arcu interdum suscipit mi eleifend quam nullam ridiculus, vitae blandit iaculis tristique praesent condimentum vulputate euismod dis, varius tellus fringilla donec curabitur tincidunt hendrerit. Lacinia morbi molestie ultrices justo cubilia fermentum venenatis, primis bibendum nunc erat taciti eget massa ultricies, dictumst class nec nullam quisque lectus.",
+                "precio": 1500,
+                "descuento": 10,
+                "imagen": "/images/Porfolio-Sol-Rockearte-32.jpg"
         }
 ]

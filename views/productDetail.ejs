@@ -47,14 +47,14 @@
                 <span></span>
                 <span></span>
                 <ul id="menu">
-                    <a href="#home"><li>Home</li></a>
+                    <a href="/"><li>Home</li></a>
                     <a href="#about"><li>Sobre Mi</li></a>
                     <a href="#colecciones"><li>Colecciones</li></a>
                     <a href="#contacto"><li>Contacto</li></a>
                 </ul>
             </div>
             <ul id="desktop-menu">
-                <a href="#home"><li>Home</li></a>
+                <a href="/"><li>Home</li></a>
                 <a href="#about"><li>Sobre Mi</li></a>
                 <a href="#colecciones"><li>Colecciones</li></a>
                 <a href="#contacto"><li>Contacto</li></a>
@@ -64,7 +64,32 @@
 
     <main class="main-style">
 
+        <section class="contenedor-detalle-imagen">
 
+                <article class="estilo-imagen-detalle">
+
+                       <div class="contenedor-imagen-detalle">
+                           <img class="imagen-detalle" src="<%= producto.imagen %>" alt="foto">
+                       </div>
+
+                    </a>
+                    <div class="descripcion-titulo">
+                        <p><%= producto.nombre %> </p>
+                    </div>
+
+                    <div class="descripcion">
+                        <p><%= producto.descripcion %> </p>
+                    </div>
+
+                    <div class="descripcion-titulo">
+                        <p>Precio de Venta: $<%= producto.precio %> </p>
+                    </div>
+
+               </article>
+
+
+
+        </section>
 
 
 
