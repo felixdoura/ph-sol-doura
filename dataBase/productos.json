@@ -1,0 +1,26 @@
+[
+        {
+                "id": 1,
+                "nombre": "Moda",
+                "descripcion": "Portfolio Moda",
+                "precio": 1000,
+                "descuento": 10,
+                "imagen": "/images/PortfolioSol-Moda0447.jpg"
+        },
+        {
+                "id": 2,
+                "nombre": "Amatista",
+                "descripcion": "imagen002",
+                "precio": 1500,
+                "descuento": 10,
+                "imagen": "/images/soldoura_amatista_2021.jpg"
+        },
+        {
+                "id": 3,
+                "nombre": "Estética",
+                "descripcion": "imagen002",
+                "precio": 1500,
+                "descuento": 10,
+                "imagen": "/images/SolDoura-Estetica de lo cotidiano.jpg"
+        }
+]

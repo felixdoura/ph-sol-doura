@@ -23,7 +23,6 @@
     <link href="/css/styles.css" rel="stylesheet">
 
 </head>
-
 <body>
     <header class="header-style">
         <div class="redes">
@@ -65,26 +64,9 @@
 
     <main class="main-style">
 
-        <section class="contenedor-general-imagenes">
 
-            <% productos.forEach(producto => { %>
-                <article class="estilo-imagen">
-                   <a class="link-imagen" href="/productos/detail/<%= producto.id %>">
 
-                       <div class="contenedor-imagen">
-                           <img class="imagen" src="<%= producto.imagen %>" alt="foto">
-                       </div>
 
-                    </a>
-                    <div class="descripcion">
-                        <p><%= producto.nombre %> </p>
-                    </div>
-               </article>
-               <% }) %>
-
-        </section>
-
- 
 
     </main>
 
@@ -92,7 +74,6 @@
         
     </footer>
 
-    
     <script src="https://kit.fontawesome.com/6cd48854d2.js" crossorigin="anonymous"></script>
 </body>
 </html>
