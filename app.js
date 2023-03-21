@@ -19,7 +19,9 @@ app.set ("view engine", "ejs");
 app.set ("views", "./views")
 
 app.use ("/", mainRouter);
+app.use ("/contact", mainRouter);
 app.use ("/productos", productsRouter);
+
 
 // app.use((req, res, next) => {
 //     res.status(404).render("not-found")

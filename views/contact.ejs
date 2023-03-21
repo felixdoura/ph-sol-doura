@@ -23,7 +23,6 @@
     <link href="/css/styles.css" rel="stylesheet">
 
 </head>
-
 <body>
     <header class="header-style">
         <div class="redes">
@@ -51,40 +50,36 @@
                     <a href="/"><li>Home</li></a>
                     <a href="#about"><li>Sobre Mi</li></a>
                     <a href="#colecciones"><li>Colecciones</li></a>
-                    <a href="/contact"><li>Contacto</li></a>
+                    <a href="#contacto"><li>Contacto</li></a>
                 </ul>
             </div>
             <ul id="desktop-menu">
                 <a href="/"><li>Home</li></a>
                 <a href="#about"><li>Sobre Mi</li></a>
                 <a href="#colecciones"><li>Colecciones</li></a>
-                <a href="/contact"><li>Contacto</li></a>
+                <a href="#contacto"><li>Contacto</li></a>
             </ul>
         </nav>
     </header>
 
     <main class="main-style">
+        <div class="contenedor-formulario">
+        <form onsubmit="sendEmail(); reset(); return false" class="formularios-contacto">
 
-        <section class="contenedor-general-imagenes">
+            <h3>Envíe su consulta</h3>
+            <input type="text" id="formulario-nombre" placeholder="Nombre" class="formulario" required>
 
-            <% productos.forEach(producto => { %>
-                <article class="estilo-imagen">
-                   <a class="link-imagen" href="/productos/detail/<%= producto.id %>">
+            <input type="email" id="formulario-email" placeholder="E-Mail" class="formulario" required>
 
-                       <div class="contenedor-imagen">
-                           <img class="imagen" src="<%= producto.imagen %>" alt="foto">
-                       </div>
+            <textarea id="formulario-mensaje" name="formulario-mensaje" cols="30" rows="10" placeholder="Mensaje" class="area-de-mensaje"></textarea>
 
-                    </a>
-                    <div class="descripcion-titulo">
-                        <p><%= producto.nombre %> </p>
-                    </div>
-               </article>
-               <% }) %>
+            <div class="botones-formulario">
+                <button type="reset">Borrar</button>
+                <button type="submit">Enviar</button>
+            </div>
 
-        </section>
-
- 
+        </form>
+        </div>
 
     </main>
 
@@ -92,7 +87,8 @@
         
     </footer>
 
-    
     <script src="https://kit.fontawesome.com/6cd48854d2.js" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="/js/contact.js"></script>
 </body>
 </html>

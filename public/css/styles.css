@@ -289,7 +289,52 @@ ul a{
   margin: 30px 80px 0 80px;
 }
 
+/* Main de Contacto */
 
+.contenedor-formulario{
+  display: flex;
+  justify-content: center;
+}
+
+.formularios-contacto{
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+}
+
+.formularios-contacto h3{
+  color: var(--richblack);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.formularios-contacto input, .formularios-contacto textarea{
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  font-size: 16px;
+}
+
+.formularios-contacto .botones-formulario{
+  display: flex;
+  justify-content: center;
+}
+
+.formularios-contacto .botones-formulario button{
+  padding: 15px;
+  background: var(--richblack-fogra);
+  color: var(--pale-cerulean);
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}
 
 /* Footer */
 
